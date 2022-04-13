@@ -1,5 +1,3 @@
- <!doctype html>
-
 <html>
     <head>
         <title>my page</title>
