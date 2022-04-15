@@ -1,2 +1,2 @@
 # iwt
-theme: jekyll-theme-hacker
++ theme: jekyll-theme-hacker
