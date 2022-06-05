@@ -25,7 +25,11 @@
     <a href="music.html" target="_blank" style="font-size: 36px ;"><button class="b2">2. Music</button></a><br>
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdu4d5mCqg6bnIILOeEFYqbdLujZ1oMFOeLA&usqp=CAU" alt="error" width="160px" height="180px" float="right">
     <a href="games.html" target="_blank" style="font-size: 36px;"><button class="b3">3. Vedio Games</button></a><br>
-
+<h3>Time : <span id="time"></span></h3>
+    <script>
+        const time_element = document.getElementById('time')
+        setInterval(function () {time_element.innerHTML = Date()})
+    </script>
     
 </body>
 </html>
