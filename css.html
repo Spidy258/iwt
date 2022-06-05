@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+ <head>
+<title>IWT Lab</title>
+ <style>
+     body{
+        background-color: rgba(16, 70, 129, 0.781);
+     }
+ div {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ }
+ h1 {
+ font-family: Monospace;
+ color: black;
+ font-size: 5em;
+ padding: 45px;
+ }
+ a {
+ font-size: 1.5em;
+ padding: 205px;
+ }
+ button{
+    border: 5px solid rgb(226, 43, 86);
+    font-size: 20px;
+    position: relative;
+ }
+</style>
+ </head>
+ <body>
+ <div>
+ <h1 id="do">Remove underline from hyperlinks</h1>
+ </div>
+ <p style="font-size: 200%;">
+ <button type="button" onclick="changebg() ">change background-color</button>
+ <button type="button" onclick="changefont()">change font-size</button>
+ <button type="button" onclick="changefontc() ">change font-color</button>
+ <button type="button" onclick="removelink()">remove underline from hyperlinks</button><br>
+ <a id="dom" href="https://www.google.co.in" target="_blank">check here</a>
+ </p>
+ <script>
+     const changebg = () => {
+        document.body.style.backgroundColor = "white"
+     }
+     const changefont = () => {
+        document.body.style.fontSize = "x-large"
+    }
+    const changefontc = () => {
+        document.getElementById("do").style.color ="red"    
+    }
+    const removelink=()=> {
+        document.getElementById("dom").style.textDecoration="none"
+    }
+ </script>
+ </body>
+ </html>
